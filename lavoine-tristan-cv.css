@@ -1,0 +1,210 @@
+body{
+	background-color: #D3CBC6;
+	margin: 0;
+	width: 100%;
+	height: 100px;
+	font-family: "open sans", "arial"; 
+}
+
+h1{
+	text-shadow: 1px 1px 1px;
+	font-size: 50px
+}
+
+header{
+	margin-top: 0px;
+	border-radius: 10px;
+}	
+
+footer p{
+	text-align: right;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.center{
+	text-align: center;
+	padding: 10px;
+	color: #FFF;
+	background-color: #009CC6;
+}
+
+#container{
+	text-align: center;
+	flex-wrap: nowrap;
+	display: flex;
+	width: 1000px;
+	margin: auto;
+	padding:25px;
+	justify-content: space-between;
+}
+
+.element{
+	font-size: 1.2em;
+	border: inset #A4A4A4;   
+	padding: 10px;
+	text-align: center;
+	background-color: #ECFCFF;
+	width: 500px;
+}
+
+.element2{
+	font-size: 1.2em;
+	padding: 10px;
+	text-align: left;
+	text-align: center;
+	width: 500px;
+}
+
+.element3{
+	
+	text-align: left;
+	color: #000;
+	text-decoration: none;
+}
+
+.element4{
+	text-align: left;
+}
+
+.element5{
+	text-align: left;
+	text-decoration: underline;
+	color: #000;
+}
+
+.couleur00{
+	color: #0025FF;
+	text-align: left;
+
+}
+
+.flag{
+	width: 20px;
+}
+
+.stars{
+	width: 50px;
+}
+
+.book{
+	width: 70px
+}
+
+.tech{
+	width: 120px
+}
+
+.up00{
+	height: 50px;
+	border-radius: 10px;
+	text-decoration: none;
+
+	transition-property: padding, background-color;
+    transition-duration: 0.5s;
+}
+
+.up00:hover{
+	padding: 30px;
+	background-image: url(fond.gif);
+}
+
+.up01{
+	border-radius: 10px;
+
+	transition-property: padding, background-color;
+    transition-duration: 0.5s;
+}
+
+.up01:hover{
+	padding: 10px;
+	background-image: url(200.gif);
+}
+
+.up02{
+	border-radius: 10px;
+
+	transition-property: padding, background-color;
+    transition-duration: 0.5s;
+}
+
+.up02:hover{
+	padding: 10px;
+	background-image: url(100.gif);
+}
+
+.up03{
+	border-radius: 10px;
+
+	transition-property: padding, background-color;
+    transition-duration: 0.5s;
+}
+
+.up03:hover{
+	padding: 10px;
+	background-image: url(300.gif);
+}
+
+.up04{
+
+	transition-property: padding, background-color;
+    transition-duration: 0.5s;
+}
+
+.up04:hover{
+	padding: 10px;
+	background-image: url(book5.gif);
+}
+
+.up05{
+
+	transition-property: padding, background-color;
+    transition-duration: 0.5s;
+}
+
+.up05:hover{
+	padding: 10px;
+	background-image: url(500.gif);
+}
+
+.up06{
+	border-radius: 10px;
+
+	transition-property: padding, background-color;
+    transition-duration: 0.5s;
+}
+
+.up06:hover{
+	padding: 10px;
+	background-image: url(700.gif);
+}
+
+.border{
+	border-style: solid;
+	border-color: #E8482C
+}
+
+.texte{
+	color: #000
+}
+
+.texte:hover{
+	color: #FF0000 
+}
+
+.text-base{
+   opacity:1;
+}
+
+.text-hover{
+   display:none;
+}
+
+.button:hover span.text-base{
+   opacity:0;
+}
+
+.button:hover span.text-hover{
+   display:inherit;
+   position:absolute;
+}
