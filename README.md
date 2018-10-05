@@ -1,2 +1,0 @@
-# TristanTriforce.github.io
-CV
